@@ -4,15 +4,67 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(112, 156, 40, 0.815);
     font-size: 66px;
+    margin-left: 200px;
 }
-a {
-    color: lightcoral;
+#recipes {
+    text-decoration: none;
+    color: rgba(112, 156, 40, 0.815);
+    background-color: #dad49f;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
-}
+    font-size: 2em;
+    line-height: 1em;
+    box-shadow: 10px 5px 5px #49572e3d;
+    transform: rotate(-39deg) translate(-92px, 22px);
+    transform-origin: 0 0;
+    position: absolute;
+top: -20px;
+left: -25px;
+width: 250px;
+padding-top: 2em;
+text-align: center;
+box-sizing: border-box;
+  }
+
 body {
     background-color: navajowhite;
     text-align: center;
     border: dotted;
     border-color: lightcoral;
+  }
+
+body > h1:nth-child(1) {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+   
+  body {
+    border: ridge;
+    border-color: #c8f0803d;
+  }
+
+  body {
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  #recipes > a:nth-child(1) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+ 
+  #recipes > a:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+body > h1:nth-child(2) {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 100px;
 }

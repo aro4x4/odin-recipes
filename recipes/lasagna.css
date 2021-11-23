@@ -1,24 +1,31 @@
 /* lasagna.css */
+html {border-color: #2e8b5782;
+}
 body {
-    background-color: sandybrown;
+    background-image: url(img/lasagna.jpeg);
+    background-color: #e3e3e352;
     text-align: center;
-    width: 80%;
+    /*! width: 80%; */
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    font-size: 45px;
+    font-size: 61px;
     color: seagreen;
+    background-color: #bbbbbb70;
 }
 img {
     width: 80%;
     height: auto;
 }
 h2 {
-    color: seagreen;
+    color: #8b372e;
+    background-color: #bbbbbb70;
 }
 li {
-    color: dimgrey;
+    color: black;
+    background-color: #bbbbbb70;
 }
 p {
-    color: dimgrey;
+    color: black;
+    background-color: #bbbbbb70;
 }
